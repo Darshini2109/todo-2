@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke; /* Set body background color */
+}
+
+
+
+.task-board-container {
+  padding: 20px;
+}
+
+.date-display-board {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.date-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.incomplete-tasks {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.task-paper {
+  padding: 15px;
+  
+}
+
+.day-header { 
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-input-container {
+  margin-top: 15px;
+  border: 1px ;
+  padding: 15px;
+ 
+}
+
+.task-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  
+}
+
+.category-indicator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+.red-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(144, 126, 126);
+  margin-right: 5px;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.task-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.message-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.message-footer .MuiIconButton-root {
+  margin-left: 1%;
+  margin-top: 1px;
+ 
+  
+ 
+}
+
+.message-footer .MuiTextField-root {
+  flex: 1;
+}
